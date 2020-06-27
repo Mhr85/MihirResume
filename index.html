@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu:700&display=swap" rel="stylesheet">
+  <!-- Semantic UI -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Local Styles -->
+  <!-- Print JS -->
+
+  <link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/logo.ico">
+  <title>Mihir Patel | Resume</title>
+  <link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.js">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <scritp src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></scritp>
+  <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="d-flex justify-content-left">
+      <img class="logo" src="./images/logo.svg" alt="">
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <button onclick="printJS('./images/resume.png', 'image')" class="ui active button m-5">
+        <i class="print icon"></i>
+        Print
+      </button>
+    </div>
+  </div>
+
+
+
+
+  <div class="container bg-white p-5" id="resume">
+    <h1 class="ui header text-success">MIHIR PATEL</h1>
+    <p class="font-italic">Honest, Dedicated & Rediculously Hard-Working Developer</p>
+
+    <div class="ui grid">
+      <div class="twelve wide column">
+        <p class="m-0 p-0"><i class="map  icon text-success"></i>21 Ari Dr, Somerset, NJ 08873</p>
+        <p class="m-0 p-0"><i class="phone icon text-success"></i>(848) 219-8878</p>
+        <p class="m-0 p-0"><i class="envelope icon text-success"></i>mhrpatel085@gmail.com</p>
+      </div>
+    
+      <div class="four wide column">
+        <p class="m-0 p-0 d-flex justify-content-end"><i class="window maximize outline icon text-success"></i><a
+            href="https://mhr85.github.io" target="_blank">Website</a></p>
+        <p class="m-0 p-0 d-flex justify-content-end"><i class="linkedin icon text-success"></i><a
+            href="https://www.linkedin.com/in/mihir-patel-596aa262" target="_blank">Linkedin</a></p>
+        <p class="m-0 p-0 d-flex justify-content-end"><i class="github icon text-success"></i><a
+            href="https://github.com/Mhr85" target="_blank">Github</a></p>
+      </div>
+    </div>
+    <hr class="bg-success">
+    
+
+    <!-- SUMMARY -->
+    <h3 class="ui header text-success text-center pt-2">SUMMARY</h3>
+    <hr class="bg-success">
+    <p class="text-center">Web Developer skilled in JavaScript, React, Express, Node, Mongo/MySQL with 1 year experiance working on personal
+      projects.</p>
+
+    <!-- EXPERIANCE -->
+    <h3 class="ui header text-success text-center pt-2">WORK EXPERIANCE</h3>
+    <hr class="bg-success">
+
+    <!-- OCEAN BREEZE -->
+    <div class="ui grid">
+      <div class="twelve wide column">
+        <h6 class="ui header text-success m-0 p-0">Ocean Breeze Pharmacy</h6>
+        <p class="font-italic m-0 p-0">Director of Operations</p>
+      </div>
+
+      <div class="four wide column">
+        <h6 class="ui header text-success m-0 p-0 d-flex justify-content-end">Staten Island, NY</h6>
+        <p class="font-italic m-0 p-0 d-flex justify-content-end">Jan 2019 - Present</p>
+      </div>
+    </div>
+
+    <ul class="pt-2">
+      <li>Started as Assistant Manager & Promoted to Director of Operations within a year.</li>
+      <li>Worked on getting Out-of-State Licenses with Board of Pharmacies as well as Secratary of States for 2 pharmacies.</li>
+      <li>Helped reducing Operations Cost by optimizing & finding best vendor services from Supplies to Property Management to Managing IT Infrastructure.</li>
+      <li>Built HR Policies & Procedures from Hiring to Mantaining Employee Records, Employee Training.</li>
+    </ul>
+  </div>
+ 
+
+  <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
